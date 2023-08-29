@@ -194,7 +194,8 @@
 }
 
 .goals__line {
-    width: 945px;
+    /*width: 945px;*/
+    width: 90%;
     height: 1px;
     background: #2A30B1;
 }
