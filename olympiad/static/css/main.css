@@ -1,0 +1,435 @@
+
+.title {
+    color: #3444B8;
+    font-family: Montserrat;
+    font-size: 42px;
+    font-weight: 700;
+}
+
+/*ВВЕДЕНИЕ. Первый слайд*/
+.introduce {
+    width: 100%;
+    height: 798px;
+    padding: 80px 62px 42px 163px;
+    background: url("../images/section1_bg.png") center center/cover no-repeat;
+}
+
+.introduce__olympiad {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5px;
+
+}
+
+.introduce__logo {
+    width: 140px;
+    height: 98px;
+}
+
+.introduce__text {
+    display: flex;
+    flex-direction: column;
+    margin-top: 88px;
+    gap: 50px;
+    align-self: center;
+    width: 595px;
+}
+
+.introduce__title {
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 46px;
+    font-style: normal;
+    font-weight: 900;
+}
+
+.introduce__btn {
+    width: 305px;
+    height: 69px;
+    border-radius: 9px;
+    background: #5B98E3;
+    color: white;
+    font-size: 19px;
+    font-style: normal;
+    font-weight: 700;
+    transition: all .7s ease-in-out;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.introduce__btn:hover {
+    background: #3762a1;
+}
+
+.introduce__image {
+    width: 640px;
+    height: 355px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 10;
+}
+
+.introduce__location {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 139px;
+    font-size: 14px;
+}
+
+.introduce-name {
+    color: #FFF;
+    font-weight: 700;
+}
+
+.introduce-adress {
+    max-width: 840px;
+    color: #FFF;
+    font-weight: 400;
+}
+/*ВВЕДЕНИЕ. Первый слайд*/
+
+
+/*Список организаторов. */
+.organizators {
+    color: #FFF;
+    width: 100%;
+    height: 220px;
+    padding: 40px 160px;
+    background: linear-gradient(88deg, #211EAA 0%, #3648B9 100%);
+    display: flex;
+    gap: 40px;
+}
+
+.organizators__title {
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.organizators__list {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    gap: 20px;
+}
+
+.organizators-item {
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+}
+/*Список организаторов. */
+
+
+/*Описание олимпиад */
+.description {
+    color: #2A30B1;
+    width: 100%;
+    padding: 70px 165px 20px 165px;
+    font-weight: 400;
+}
+
+.description__title {
+    font-size: 30px;
+}
+
+.description__stages {
+    display: flex;
+    gap: 30px;
+}
+
+.description__stage-item {
+    max-width: 48%;
+    margin-top: 35px;
+    font-size: 20px;
+}
+/*Описание олимпиад */
+
+
+/*Цели */
+.goals {
+    width: 100%;
+    padding: 10px 250px 0px 250px;
+    /*text-align: center;*/
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.goals__title {
+    margin-top: 25px;
+}
+
+.goals__list {
+    margin-top: 70px;
+    width: 945px;
+    display: flex;
+    color: #2F185F;
+    font-family: PT Sans;
+    font-size: 16px;
+    font-weight: 400;
+    justify-content: space-between;
+}
+
+.goals__list-item {
+    transition: all .2s ease-in-out;
+}
+
+.goals__list-item:hover {
+    color: #2A30B1;
+    font-weight: 700;
+    border-bottom: 3px solid #2A30B1;
+}
+
+.goals__list-item:active {
+    color: #2A30B1;
+    font-weight: 700;
+    border-bottom: 3px solid #2A30B1;
+}
+
+.goals__line {
+    width: 945px;
+    height: 1px;
+    background: #2A30B1;
+}
+
+.goals__card {
+    position: relative;
+    width: 625px;
+    height: 195px;
+    margin-top: 70px;
+    padding: 20px 35px;
+    border-radius: 10px;
+    background: #FFF;
+    box-shadow: 0px 0px 64px 0px #BEC8F5;
+    text-align: center;
+    font-family: PT Sans;
+    color: #2F185F;
+}
+
+.goals__card-title {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.goals__card-description {
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.goals__card-img {
+    position: absolute;
+    top: -37px;
+    left: -20px;
+}
+
+/*Цели */
+
+
+/*Комитет */
+
+.committee {
+    width: 100%;
+    padding: 20px 165px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.committee__title {
+
+}
+
+.committee__list {
+    width: 1180px;
+    margin-top: 70px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    row-gap: 60px;
+}
+
+.committee__list-item {
+    max-width: 274px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    text-align: center;
+}
+
+.committee__list-avatar {
+    position: relative;
+    background: url("../images/avatar_back.svg") center center no-repeat;
+}
+
+.committee__list-img {
+    width: 114px;
+    height: 180px;
+    margin: 0 auto;
+}
+
+.committee__list-bg {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}
+
+.committee__list-name {
+    max-width: 254px;
+    color: #201EAA;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.committee__list-descr {
+    max-width: 250px;
+    color: #191773;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.committee__list-descr::first-letter {
+  text-transform: uppercase;
+}
+/*Комитет */
+
+/*Галерея */
+
+.gallery {
+    width: 100%;
+    text-align: center;
+}
+
+.gallery__title {
+    margin-top: 70px;
+}
+
+.gallery-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 70px;
+}
+
+.gallery-item {
+    width: 20%;
+    max-width: 288px;
+    height: 205px;
+    transition: filter 0.3s ease;
+    object-fit: cover;
+}
+
+.gallery-item:hover {
+    cursor: pointer;
+    filter: brightness(0.7);
+}
+
+/*Галерея */
+
+
+/*Контакты */
+
+.contacts {
+    width: 100%;
+    text-align: center;
+    margin-top: 70px;
+    color: #FFF;
+    font-family: Montserrat;
+}
+
+.contacts__title {
+
+}
+
+.contacts__list {
+    margin-top: 70px;
+    width: 100%;
+    display: flex;
+    height: 234px;
+}
+
+.contacts__address {
+    width: 70%;
+    background: #4340C9;
+    display: flex;
+    flex-direction: column;
+    padding: 70px 160px;
+    text-align: left;
+}
+
+.contacts__address-street {
+    font-family: Montserrat;
+    font-size: 21px;
+    font-weight: 700;
+}
+
+.contacts__address-university {
+    font-family: Montserrat;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.contacts__address-place {
+    font-family: Montserrat;
+    font-size: 17px;
+    font-weight: 500;
+}
+
+.contacts__communication {
+    width: 30%;
+    background: #0A72ED;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.contacts__communication a:hover {
+    transition: all .4s ease-in-out;
+}
+
+.contacts__communication a:hover {
+    color: #2A30B1;
+}
+
+.contacts__communication-number {
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.contacts__communication-email {
+    color: #ACD2FF;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.contacts__google {
+    text-decoration:none;
+    overflow:hidden;
+    max-width:100%;
+    height:500px;
+}
+
+
+.contacts__google-map {
+    height:100%;
+    width:100%;
+    border:0;
+}
+
+/*Контакты */

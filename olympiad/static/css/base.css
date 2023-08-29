@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap');
+
+body {
+    font-family: Montserrat;
+}
+
+.main {
+    width: 100%;
+    height: 100vh;
+    /*height: 100vh;*/
+    /*overflow: hidden;*/
+}

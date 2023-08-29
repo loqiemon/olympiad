@@ -1,0 +1,622 @@
+
+@media (min-width: 1920px) {
+    .introduce {
+        padding: 80px 10% 42px 15%;
+    }
+
+    .organizators {
+        padding: 80px 10% 42px 15%;
+    }
+
+    .description {
+        padding: 80px 10% 42px 15%;
+    }
+
+    .goals {
+        padding: 80px 10% 42px 15%;
+    }
+
+    .committee {
+        padding: 80px 10% 42px 15%;
+    }
+
+    .gallery {
+        padding: 80px 10% 42px 15%;
+    }
+
+    .contacts__address {
+        padding-left: 12%;
+    }
+}
+
+@media (max-width: 3000px) {
+    #carouselExample {
+        display: none;
+    }
+
+    .dropdown {
+        display: none;
+    }
+
+    .institution_name-mobile {
+        display: none;
+    }
+
+
+}
+
+@media (max-width: 1399px) {
+    .introduce__title {
+        font-size: 36px;
+    }
+
+    .introduce__text {
+        width: 492px;
+        gap: 80px;
+    }
+
+    .introduce__btn {
+        width: 235px;
+        height: 57px;
+        font-size: 18px;
+    }
+
+    .introduce__image {
+        width: 544px;
+        height: 302px;
+    }
+
+    .introduce__location {
+        font-size: 13px;
+    }
+
+    .organizators {
+        padding: 26px 160px;
+    }
+
+    .description__stage-item {
+        font-size: 19px;
+    }
+
+    .gallery-item {
+        width: 20%;
+    }
+}
+
+@media (max-width: 1199px) {
+    .introduce {
+        padding: 80px 32px 42px 70px;
+    }
+
+    .introduce__logo {
+      width: 112px;
+      height: 79px;
+    }
+
+    .introduce__title {
+      font-size: 35px;
+    }
+
+    .introduce__image {
+        width: 481px;
+        height: 267px;
+        top: 5%;
+    }
+
+    .introduce-name {
+      max-width: 192px;
+    }
+
+    .organizators {
+        padding: 26px 32px 26px 70px;
+    }
+
+    .description {
+        padding: 70px 32px 20px 70px;
+    }
+
+    .description__title {
+      font-size: 26px;
+    }
+
+    .committee {
+        padding: 20px 32px 20px 70px;
+    }
+    .committee__title {
+        margin-top: 70px;
+        font-size: 34px;
+    }
+    .committee__list {
+      width: 100%;
+      row-gap: 40px;
+        justify-content: space-around;
+    }
+
+    .committee__list-item {
+        max-width: 250px;
+    }
+
+
+    .gallery-item {
+        max-width: unset;
+        width: 33.33%;
+        height: 33%;
+    }
+
+    .contacts__address {
+      padding: 70px 32px;
+    }
+
+    .contacts__communication-number {
+      font-size: 27px;
+    }
+
+    .contacts__communication-email {
+      font-size: 23px;
+    }
+
+    .register {
+        height: 100%;
+        padding: 80px 65px 120px 65px;
+    }
+
+    .register__form {
+        width: 100%;
+    }
+
+    .register__form-line {
+        width: 100%;
+    }
+
+    .register__form-name {
+        text-align: left;
+    }
+}
+
+
+@media (max-width: 991px) {
+    .introduce {
+        padding: 50px 15px 22px 20px;
+        height: 701px;
+    }
+
+    .introduce__logo {
+      width: 95px;
+      height: 67px;
+    }
+
+    .introduce__text {
+      width: 383px;
+      gap: 80px;
+    }
+
+    .introduce__title {
+      font-size: 28px;
+    }
+
+    .introduce__image {
+      width: 404px;
+      height: 223px;
+      top: 9%;
+    }
+
+    .organizators {
+        padding: 26px 15px 26px 20px;
+        flex-direction: column;
+        height: 350px;
+    }
+
+    .description {
+      padding: 40px 15px 20px 20px;
+    }
+
+    .description__stage-item {
+      font-size: 18px;
+    }
+
+    #description__stages-prizes {
+        flex-direction: column;
+    }
+
+    #description__stages-prizes .description__stage-item {
+        max-width: 100%;
+    }
+
+    .goals {
+        padding: 10px 15px 20px 20px;
+    }
+
+    .goals__list {
+        width: 100%;
+        gap: 8px;
+    }
+
+    .contacts__address {
+      padding: 70px 15px 70px 15px;
+    }
+
+    .contacts__address-university {
+      font-size: 14px;
+    }
+
+    .contacts__communication-number {
+      font-size: 21px;
+    }
+
+    .contacts__communication-email {
+      font-size: 21px;
+    }
+
+    .register__form-name {
+        width: 28%;
+    }
+
+    .register__form-input {
+        width: 72%;
+    }
+}
+
+@media (max-width: 767px) {
+    .introduce {
+        height: 560px;
+        padding: 50px 8px 22px 15px;
+    }
+
+    .introduce__logo {
+      width: 85px;
+      height: 60px;
+    }
+
+    .introduce__title {
+      font-size: 21px;
+    }
+
+    .introduce__text {
+        width: 337px;
+        gap: 35px;
+    }
+
+    .introduce__image {
+      width: 310px;
+      height: 174px;
+      top: 19%;
+    }
+
+    .introduce__btn {
+      width: 160px;
+      height: 45px;
+      font-size: 16px;
+    }
+
+    .introduce__location {
+        margin-top: 110px;
+    }
+
+    .organizators {
+        padding: 26px 8px 26px 15px;
+        height: 485px;
+        gap: 15px;
+    }
+
+    .organizators__list {
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    .organizators-item {
+        max-width: 30%;
+    }
+
+    .description {
+        padding: 40px 8px 20px 15px;
+    }
+
+    .description__title {
+        font-size: 23px;
+    }
+
+    #description__stages-prizes .description__stage-item {
+        margin-top: 20px;
+    }
+
+    .goals {
+      padding: 10px 8px 20px 15px;
+    }
+
+    .goals__card {
+        width: 495px;
+    }
+
+    .committee {
+      padding: 20px 8px 20px 15px;
+    }
+
+    .committee__title {
+      margin-top: 50px;
+      font-size: 28px;
+    }
+
+    .gallery__title  {
+        font-size: 28px;
+        margin-top: 45px;
+    }
+
+    .gallery-item {
+        width: 50%;
+    }
+
+    #carouselExample {
+        margin-top: 50px;
+        display: block;
+    }
+
+    .gallery-container {
+        display: none;
+    }
+
+    .contacts__address {
+        gap: 7px;
+        width: 67%;
+    }
+
+
+
+    .contacts__title {
+      font-size: 28px;
+      margin-top: 45px;
+    }
+
+    .contacts__address-street {
+        font-size: 18px;
+    }
+
+    .contacts__address-place {
+      font-size: 16px;
+    }
+
+    .contacts__communication {
+        width: 33%;
+    }
+
+    .contacts__communication-number {
+      font-size: 18px;
+    }
+
+    .register {
+        padding: 20px 65px 20px 65px;
+    }
+
+    .register__form {
+        margin-top: 30px;
+        gap: 12px;
+    }
+
+    .register__title {
+        font-size: 30px;
+    }
+
+    .register__form-line {
+        flex-direction: column;
+        gap: 5px;
+        align-items: flex-start;
+    }
+
+    .register__form-name {
+        text-align: left;
+        width: 100%;
+    }
+
+    .register__form-input {
+        width: 100%;
+    }
+
+    .institution_name-mobile {
+        display: block;
+    }
+
+    .institution_name-desktop {
+        display: none;
+    }
+}
+
+@media (max-width: 575px) {
+    .introduce {
+        padding: 20px 7px 22px 7px;
+        height: unset;
+    }
+
+    .introduce__logo {
+      width: 68px;
+      height: 48px;
+    }
+
+    .introduce__olympiad {
+        flex-direction: column;
+    }
+
+    .introduce__text {
+        text-align: center;
+        width: 100%;
+        margin-top: 40px;
+    }
+
+    .introduce__btn {
+        margin: 0 auto;
+    }
+
+    .introduce__image {
+        display: none;
+        position: relative;
+    }
+
+    .introduce__location {
+        flex-direction: column;
+        align-items: start;
+    }
+
+    .introduce-name {
+        text-align: left;
+        font-size: 14px;
+        max-width: 100%;
+    }
+
+    .introduce-adress {
+        max-width: 100%;
+        margin-top: 10px;
+    }
+
+    .organizators {
+        padding: 20px 7px;
+        height: unset;
+    }
+
+    .description {
+        padding: 30px 7px 20px 7px;
+    }
+
+    .description__title {
+        font-size: 20px;
+    }
+
+    .description__stages {
+        flex-direction: column;
+        margin-top: 15px;
+    }
+
+    .description__stage-item {
+        margin-top: 0;
+        max-width: 100%;
+        font-size: 17px;
+    }
+
+    .goals {
+        padding: 10px 7px 20px 7px;
+    }
+
+    .goals__title {
+        margin-top: 18px;
+        font-size: 35px;
+    }
+
+    .goals__card {
+        width: 92%;
+        height: unset;
+        padding: 20px 15px;
+    }
+
+    .goals__card-description {
+        font-size: 17px;
+    }
+
+    .dropdown {
+        display: block;
+    }
+
+    .btn-secondary {
+        width: 100%;
+        color: #000;
+        background-color: #FFFFFF;
+        transition: all .4s ease-in-out;
+    }
+
+    .btn-secondary:hover {
+        background-color: #8f8989;
+    }
+
+    .goals__list {
+        display: none;
+    }
+
+    .goals__card {
+        padding: 28px 15px 15px 15px;
+    }
+
+    .goals__card-img {
+        width: 70px;
+        height: 72px;
+        top: -35px;
+        left: -20px;
+    }
+
+    .goals__card-title {
+        margin-top: 8px;
+    }
+
+    .goals__list-item {
+        width: 100%;
+        font-size: 14px;
+    }
+
+    .committee__title {
+        margin-top: 25px;
+        font-size: 26px;
+        text-align: center;
+    }
+
+    .gallery__title title {
+        margin-top: 20px;
+    }
+
+    .contacts__title  {
+        margin-top: 20px;
+    }
+
+    .contacts__list {
+        margin-top: 20px;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .contacts__address {
+        width: 100%;
+        padding: 10px 7px;
+    }
+
+    .contacts__communication {
+        width: 100%;
+        padding: 10px 7px;
+    }
+
+    .contacts__google {
+      height: 350px;
+    }
+
+    .contacts__address-street {
+      font-size: 18px;
+    }
+
+    .register {
+      padding: 10px;
+    }
+
+    .register__title {
+        font-size: 24px;
+    }
+
+    .register__form-name {
+        font-size: 18px;
+    }
+
+    .register__submit {
+        width: 80%;
+    }
+}
+
+@media (max-width: 415px) {
+    .organizators__list {
+        justify-content: start;
+        text-align: left;
+        gap: 12px;
+        margin-top: 5px;
+    }
+
+    .organizators-item {
+        max-width: 100%;
+        margin-top: 0;
+        font-size: 14px;
+    }
+
+    .contacts__address-street {
+      font-size: 15px;
+    }
+}
